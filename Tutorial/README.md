@@ -21,7 +21,7 @@ If the user desires, they can include a number of other arguments in their initi
 
 If the images and landmarks were loaded properly, you should see an interface like such
 
-![image](https://github.com/user-attachments/assets/a01c2232-63c0-4e42-a8b7-c0cd041168b3)
+![image](https://github.com/user-attachments/assets/7f178f38-61d7-4db6-907d-3135e568dad4)
 
 
 **NOTE 1:** Due to the way images are loaded into MatchGui, they must be the same size, otherwise they will not properly display. To account for this, images with different dimensions that are loaded into MatchGui are resized automatically by adding the respective number of slices to each dimension needed. These slices are simply repeats of the maximum value of the image, so won't show up unless the window level is significantly altered. This should not affect the presentation of the landmarks, but is worth noting. This is a feature that may be updated in future versions.
@@ -31,8 +31,7 @@ In this display, you should see each landmark pair both on CT1 and CT2. The orde
 
 The user can toggle which landmark they are looking at by using the slider at the top right, or by left clicking on one of the display windows and hitting the right and left arrow keys. The order of the landmarks is randomized, so there is no physical association with a landmark occurring earlier or later. Play around with the zoom factor and landmark sliders to visualize some of the landmark pairs in the dataset. One can also try adjusting the window level settings by using the text box inputs or by right clicking on any of the images and selecting "Window Levels"-> and desired organ.
 
-<img src="https://github.com/user-attachments/assets/57d7cfaa-83a8-4e1c-9278-67d80edb5d93" width="400"> <img src="https://github.com/user-attachments/assets/8ed77e32-3f1b-4e54-a01c-e29f88c5291b" width="400"> 
-
+<img src="https://github.com/user-attachments/assets/fd4aca4a-8506-400f-a3bd-b85945acf9aa" width="400"> <img src="https://github.com/user-attachments/assets/ee4daa88-b0aa-4924-aa77-66d0c947381d" width="400"> 
 
 
 **LEFT:** A landmark in this case with good window level settings and upsampling. **RIGHT:** The same landmark without upsampling and different window level settings.
@@ -41,7 +40,7 @@ Some of the landmarks may not appear to occur on bifurcations at first glance. T
 
 The user can also toggle the "Vector" checkbox to visualize where the each landmark in a pair occurs relative to the other image. This can give the user some perspective on the amount of deformation at each landmark. The position of and distance between the two landmarks is also displayed in the upper right as "Distance". image
 
-![image](https://github.com/user-attachments/assets/de109aa7-5656-48ed-8ad9-3f05dc766a2d)
+![image](https://github.com/user-attachments/assets/798eb450-5716-4724-9ef5-596f70b3ba29)
 
 What the vectors look like for the landmarks showing displacement. The vector in red is the currently selected landmark, while those in green are other landmarks happening to occur on the same slice (these can be toggled through the use of the "Other Features" checkbox). The endpoint of the arrow is where the landmark occurs in the other image.
 
