@@ -2,8 +2,7 @@
 Dataset of abdominal CT image pairs with labeled blood vessel bifurcations for deformable image registration (DIR) quality assurance.
 
 <img src="https://github.com/user-attachments/assets/7afabfcd-d8b2-4118-89d2-454137d1df53" width="350">
-<img src="https://github.com/user-attachments/assets/77a93301-d8a0-45f5-92bd-c8fca95f4ec3" width="350">
-
+<img src="https://github.com/user-attachments/assets/89b192b8-b370-42e9-af8b-99d6b8aee7e4" width="350">
 
 ## Dataset Overview
 This dataset contains 30 different cases of abdominal CT image pairs, with a high number of vessel bifurcation landmark pairs identified in each case. This datsaet is the first of its kind in the abdomen, and the landmarks can be used for DIR algorithm validation and quality assurance. By comparing the distance between landmarks in the fixed and deformed moving image after registration, researchers can calculate the target registration error (TRE) of their algorithm. Images are obtained from several publicly available image repositories as well as clinical scans from Barnes Jewish Hospital.
@@ -55,7 +54,7 @@ Some of the image data in the liver dataset overlaps with this dataset. The foll
 
 
 ## Dataset Generation
-![image](https://github.com/user-attachments/assets/e779e49c-429d-40d5-8033-89c5a0eea3de)
+![image](https://github.com/user-attachments/assets/01e9fb3a-d7af-48da-ae57-54f83e0056a1)
 
 
 The full details of this pathway will be described in the dataset article we hope to publish. In steps of this pathway, we utilized FFDNet, TotalSegmentator, and PTVReg, publicly available tools that are cited at the bottom of this document. 
@@ -106,7 +105,7 @@ Below is a table summarizing each image case, its resolution, and the number of 
 ### Visualizing Landmarks
 For those interested in looking at the landmark pairs available in this dataset, we recommend the use of MatchGui (Deshan Yang, 2017). MatchGui is a Matlab based tool, and allows the user to load in both CT images as well as the landmark locations for each image. In this way, users can visualize each landmark pair invidually, with upsampling tools that can help inform the user if the dataset is right for their purposes. There are also functions allowing the user to flag certain landmarks and adjust them if they feel necessary.
 
-![image](https://github.com/user-attachments/assets/ec7abfab-258d-415e-84aa-c8c4969f5ca1)
+![image](https://github.com/user-attachments/assets/30b79ea3-8aab-43d2-a0ee-2ee1b95c74d0)
 
 
 A screenshot from the MatchGUI interface showing a landmark pair from this dataset.
