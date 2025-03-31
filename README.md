@@ -1,7 +1,7 @@
 # Abdominal DIR Validation
 Dataset of abdominal CT image pairs with labeled blood vessel bifurcations for deformable image registration (DIR) quality assurance.
 
-<img src="https://github.com/user-attachments/assets/5299bc3f-3bc3-4d20-a9c0-ddfcaa80e513" width="350">
+<img src="https://github.com/user-attachments/assets/7afabfcd-d8b2-4118-89d2-454137d1df53" width="350">
 <img src="https://github.com/user-attachments/assets/77a93301-d8a0-45f5-92bd-c8fca95f4ec3" width="350">
 
 
